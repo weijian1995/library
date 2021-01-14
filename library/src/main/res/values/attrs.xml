@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FormInputLayout">
+        <attr name="text" format="string"/>
+        <attr name="hint" format="string"/>
+        <attr name="isNeed" format="boolean"/>
+        <attr name="input_type" format="enum">
+            <enum name="text" value="0x00000001"/>
+            <enum name="num" value="0x00000002"/>
+            <enum name="password" value="0x00000010"/>
+        </attr>
+        <attr name="maxLength" format="integer"/>
+        <attr name="canInput" format="boolean"/>
+        <attr name="showUnit" format="boolean"/>
+        <attr name="right_bold" format="boolean"/>
+        <attr name="unitText" format="string"/>
+        <attr name="show_divide" format="boolean"/>
+        <attr name="divide_res" format="reference|integer"/>
+        <attr name="right_img" format="reference|integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="FormSelectLayout">
+        <attr name="select_text" format="string"/>
+        <attr name="select_text_size" format="integer"/>
+        <attr name="select_right_text" format="string"/>
+        <attr name="select_hint" format="string"/>
+        <attr name="select_isNeed" format="boolean"/>
+        <attr name="select_show_right" format="boolean"/>
+        <attr name="select_showUnit" format="boolean"/>
+        <attr name="select_right_bold" format="boolean"/>
+        <attr name="select_show_divide" format="boolean"/>
+        <attr name="select_unitText" format="string"/>
+        <attr name="select_smallText" format="string"/>
+        <attr name="select_right_text_color" format="color"/>
+        <attr name="select_right_text_size" format="integer"/>
+        <attr name="select_left_img" format="reference|integer"/>
+        <attr name="select_left_img_margin" format="dimension"/>
+        <attr name="select_padding_left" format="dimension"/>
+        <attr name="select_padding_right" format="dimension"/>
+        <attr name="select_background" format="reference|integer"/>
+        <attr name="select_right_img" format="reference|integer"/>
+        <attr name="select_divide_res" format="reference|integer"/>
+    </declare-styleable>
+
+
+</resources>
